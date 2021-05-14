@@ -4,7 +4,6 @@
 //
 //  Created by nodoka on 2021/05/07.
 //
-
 import UIKit
 
 class ViewController: UIViewController {
