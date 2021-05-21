@@ -11,7 +11,7 @@
         <!--Login View Controller-->
         <scene sceneID="kTF-wB-mn3">
             <objects>
-                <viewController id="kz8-WE-o9T" customClass="LoginViewController" customModule="Hitowooboeruapuri" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="kz8-WE-o9T" customClass="LoginViewController" customModule="Friendmemory2" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="btX-6I-OfM">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -110,7 +110,7 @@
         <!--Face View Controller-->
         <scene sceneID="Wsh-lf-w70">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="vZ9-Iz-owS" customClass="FaceViewController" customModule="Hitowooboeruapuri" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="vZ9-Iz-owS" customClass="FaceViewController" customModule="Friendmemory2" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tRc-Ku-8Mm">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -151,6 +151,18 @@
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cz6-GM-3AW">
                                 <rect key="frame" x="0.0" y="441" width="414" height="110"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kXy-gj-8BS">
+                                        <rect key="frame" x="125" y="41" width="71" height="28"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="いい.png"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bQq-e3-tCG">
+                                        <rect key="frame" x="285" y="44" width="50" height="22"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="うう.png"/>
+                                    </button>
+                                </subviews>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="110" id="OoA-cE-6id"/>
                                 </constraints>
@@ -168,6 +180,11 @@
                                     <constraint firstAttribute="height" constant="290" id="dRP-q8-73i"/>
                                 </constraints>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R3X-q3-0ur">
+                                <rect key="frame" x="109" y="533" width="93" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="ああ.png"/>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="qLC-7l-39o"/>
                         <color key="backgroundColor" red="0.8771380782" green="0.9263008237" blue="0.89324933289999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -195,7 +212,7 @@
         <!--View Controller-->
         <scene sceneID="cil-mg-nHR">
             <objects>
-                <viewController storyboardIdentifier="LoginViewController" modalPresentationStyle="fullScreen" id="82X-uS-C0h" customClass="ViewController" customModule="Hitowooboeruapuri" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LoginViewController" modalPresentationStyle="fullScreen" id="82X-uS-C0h" customClass="ViewController" customModule="Friendmemory2" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Zge-6E-Yw3">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -455,7 +472,7 @@
         <!--List View Controller-->
         <scene sceneID="fEH-H8-w5g">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="53d-uV-9Bn" customClass="ListViewController" customModule="Hitowooboeruapuri" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="53d-uV-9Bn" customClass="ListViewController" customModule="Friendmemory2" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Kh7-Fj-ZmO">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -468,7 +485,7 @@
                                     <constraint firstAttribute="height" constant="740" id="jg0-q4-aZj"/>
                                 </constraints>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" rowHeight="214" id="gUj-fF-5pZ" customClass="ListTableViewCell" customModule="Hitowooboeruapuri" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" rowHeight="214" id="gUj-fF-5pZ" customClass="ListTableViewCell" customModule="Friendmemory2" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="414" height="214"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="gUj-fF-5pZ" id="5Tp-ky-dhJ">
@@ -565,6 +582,9 @@
         <image name="_i_icon_11477_icon_114770_256.png" width="256" height="256"/>
         <image name="_i_icon_14440_icon_144400_256.png" width="256" height="256"/>
         <image name="hatena.png" width="256" height="256"/>
+        <image name="ああ.png" width="93" height="30"/>
+        <image name="いい.png" width="71" height="28"/>
+        <image name="うう.png" width="50" height="21"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
